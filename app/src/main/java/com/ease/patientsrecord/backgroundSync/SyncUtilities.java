@@ -37,6 +37,7 @@ public class SyncUtilities {
     private static final int INTERVAL_MINUTES = 15;
     private static final int INTERVAL_SECONDS = (int) (TimeUnit.MINUTES.toSeconds(INTERVAL_MINUTES));
     private static final int SYNC_FLEXTIME_SECONDS = INTERVAL_SECONDS;
+    private static final int SECONDS_IN_A_DAY = (int) (TimeUnit.MINUTES.toSeconds(1440));
 
     private static final String TAG = "sync_patients_tag";
 
@@ -53,7 +54,7 @@ public class SyncUtilities {
                  * Set the UNIQUE tag used to identify this Job.
                  */.setTag(TAG)
 
-//                .setConstraints(Constraint.DEVICE_CHARGING)
+                .setConstraints(Constraint.DEVICE_CHARGING)
 
                 .setConstraints(Constraint.ON_ANY_NETWORK)
 
@@ -61,7 +62,7 @@ public class SyncUtilities {
 
                 .setRecurring(true)
 
-                .setTrigger(Trigger.executionWindow(0, 30))
+                .setTrigger(Trigger.executionWindow(INTERVAL_SECONDS, SECONDS_IN_A_DAY+SYNC_FLEXTIME_SECONDS))
 
                 .setReplaceCurrent(true).build();
 
