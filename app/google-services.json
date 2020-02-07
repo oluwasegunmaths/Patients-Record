@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "229325686238",
+    "firebase_url": "https://friendlychat-cab5e.firebaseio.com",
+    "project_id": "friendlychat-cab5e",
+    "storage_bucket": "friendlychat-cab5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229325686238:android:7fb911d18182ead026894f",
+        "android_client_info": {
+          "package_name": "com.ease.patientrecord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229325686238-i92n41r8fvomern26nj484jttun316qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2znx2-CRpfXaoWFCGjrgzWqah6UUJPRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229325686238-i92n41r8fvomern26nj484jttun316qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229325686238:android:3ce8986f9339bdef26894f",
+        "android_client_info": {
+          "package_name": "com.ease.patientsrecord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229325686238-i92n41r8fvomern26nj484jttun316qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2znx2-CRpfXaoWFCGjrgzWqah6UUJPRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229325686238-i92n41r8fvomern26nj484jttun316qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229325686238:android:64e58dacc0483faa",
+        "android_client_info": {
+          "package_name": "com.google.firebase.udacity.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229325686238-c9gjqooo075nf5448gngl3fee4ec1kdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.udacity.friendlychat",
+            "certificate_hash": "285a73d883828c61189598734ab943004becd444"
+          }
+        },
+        {
+          "client_id": "229325686238-i92n41r8fvomern26nj484jttun316qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2znx2-CRpfXaoWFCGjrgzWqah6UUJPRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229325686238-i92n41r8fvomern26nj484jttun316qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
